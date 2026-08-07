@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ body {
+     margin: 0;
+     padding: 0;
+ background-color: #33658A;
+    }
+
+#cabecalho {
+    background: #1A3342;
+    background-color: darkslategray;
+}
+
+#lampada{
+border-radius: 50%;
+}
+#menu {
+    border-radius: 10px;
+}
+h1 {
+    color:white;
+}
+
+
+
+
+
+
