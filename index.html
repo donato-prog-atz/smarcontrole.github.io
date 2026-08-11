@@ -2,35 +2,28 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login </title> 
+    <title>Faça seu Login</title>
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <body>
-    <header class="cabecalho">
-        <img id="lampada" src="imagens/icone lapda.png" alt="lampada"width="50" height="50">
-            <img id="Menu" src="imagens/icone de aburgui.png" alt="menu"width="40" height="40">
-     </header>
-    
-     <main> 
-        <div class="card_login">
-            <h1>Login</h1>
-        <form method = "get" action="dashboard.html">
-            <label for="email">Email:</label><br><br>
-        <input type="email" name="email" id="email" placeholder="Enter" required><br><br>
-     <label for="Senha">Senha</label><br><br>
-        <input type="password" name="senha" id="senha" placeholder="Enter" required><br><br>
-      <input class="botao_login" type="submit" value="Login">
-    </from>   
-        
-    <a  class="criar_conta"  href="cadastro.html">Criar conta</a>
-        <a class="redefinir_senha" href="redefinir_senha.html">Esqueci minha senha</a>
-         </div>
-        </main>
-  
-
-    
+    <header id="cabecalho">
+        <img id="lampada" src="imagens/icone lapda.png" alt="Imagem de uma lâmpada">
+        <h1>Faça seu Login</h1>
+        <img id="menu" src="imagens/icone de aburgui.png" alt="Menu">
+    </header>
+    <div id="form">
+        <form method="get" action="dashboard.html" id="formulario">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu E-mail..." required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha..." required minlength="8">
+            <button type="submit">Login</button>
+        </form>
+        <a href="cadastro.html"><h3>Criar conta</h3></a>
+        <a href="esqueci_senha.html"><h3>Esqueci minha senha</h3></a>
+    </div>
+    <img id="logo" src="assets/imagem/62be949d-18a4-492d-baa7-9aa6a30f362a(1).jpg" alt="logo da empresa">
 </body>
 </html>

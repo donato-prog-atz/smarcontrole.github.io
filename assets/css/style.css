@@ -1,104 +1,148 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #33658A; 
-    font-family: Arial, sans-serif;
-    height: 100dvh;
+    background-color: #33658A;
+    user-select: none;
 }
 
 #cabecalho {
-    height: 100px;
-    background-color: #4667a3;
+    background-color: #1A3342;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 10px 30px;
+}
+
+h1 {
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
 }
 
 #lampada {
-    width: 45px;
-    height: 45px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    transition: transform 0.2s ease; 
 }
 
-#cabecalho h1 {
-    color: white;
-    font-size: 24px;
-    font-weight: normal;
-    margin: 0;
+#lampada:hover {
+    transform: scale(1.05);
 }
 
 #menu {
-    display: flex;
-    align-items: center;
-}
-.logo {
-    width: 45px;
-    height: 45px;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    transition: transform 0.2s ease;
 }
 
+#menu:hover {
+    transform: scale(1.05);
+}
 
 
-main {
+
+
+#formulario {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: calc(100% - 100px);
-}
-
-#card_login {
-    background-color: #78a6c9;
-    width: 340px;
-    padding: 30px;
-    border-radius: 16px;
-}
-
-#card_login h2 {
+    flex-direction: column;
     text-align: center;
-    font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 20px;
+    align-items: center;
 }
 
-#card_login label {
-    display: block;
-    margin-bottom: 5px;
+#form {
+    background-color: #86BBD8;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 17px;
+    margin: 80px auto;
 }
 
-#card_login input{
-    width: 100%;
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    user-select: text;
+    font-size: 18px;
+    text-align: left;
     padding: 10px;
-    border: none;
-    border-radius: 16px;
+    transition: transform 0.2s ease;
 }
 
+input:hover {
+    transform: scale(1.05);
+}
 
-#botao_login {
-    display: block;
-    margin: 10px auto;
-    padding: 8px 14px;
-    background-color: #48c5dc;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
+::placeholder {
+    padding: 10px;
+}
+
+label {
+    display: flex;
+    font-size: 25px;
     cursor: pointer;
 }
 
-#criar_conta {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
+button {
+    background-color: #119DA4;
+    width: 90px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+a {
     text-decoration: none;
+    color: black;
+    margin: 5px;
+    transition: transform 0.2s ease;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+
+#logo {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 50px;
+    transition: transform 0.2s ease; 
+}
+
+#logo:hover {
+    transform: scale(1.05);
 }
 
 
 
 
-
-
+#formulario label {
+    width: 300px;
+    text-align: left;
+}
