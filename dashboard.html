@@ -4,28 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
 <body>
-    <header> <img src="assets/imagem/62be949d-18a4-492d-baa7-9aa6a30f362a(1).jpg" alt="Logo da smart control"width="200" height="200">
-    </header>
-    <nav>
-        <details>
-            <summary>Menu</summary>
-            <ul>
-                <li><a href="#">Relatórios</a></li>
-                <li><a href="#">Configurações</a></li>
-                <li>
-                    <details>
-                        <summary>Perfil</summary>
-                        <ul>
-                            <li><a href="index.html">Sair</a></li>
-                    </details>
-                </li>
+    <header id="cabecalho">
+                <img id="lmapada" src="imagens/icone lapda.png" alt="botão para mudar de tema">            
+        <details class= "menu"> 
+            <summary><img id="menuic" src="imagens/icone de aburgui.png" alt="menu hamburguer">
+            <div class="menu-caixa">
+                <a href="#">Relatórios</a>
+                <a href="#">Configurações</a>
+                <a href="#">Perfil</a>
+                <a href="index.html">Sair</a>
+            </div>
         </details>
-    <img src="imagens/icone lapda.png" alt="botão para mudar de tema">
-    <img src="imagens/icone de aburgui.png" alt="menu hamburguer">
+    </header>
+    <main class="conteudo">
     <h1>Dashboard Geral</h1>
-   
     <div class="comodos">
        
             <li>
@@ -134,8 +129,12 @@
         </tbody>
         </table>
         <h2>Sede da Empresa</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d714.2933598585118!2d-43.34769866420034!3d-21.768814434239335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b090b36c947%3A0xcef5eeb62723837e!2sHebert%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1785959954216!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    <footer>
+        
+        <section class="localizacao">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d714.2933598585118!2d-43.34769866420034!3d-21.768814434239335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b090b36c947%3A0xcef5eeb62723837e!2sHebert%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1785959954216!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+    </main>
+           <footer>
         <a href="https://pedrotech.com.br/pedrolandia/"></a>
     </footer>
     
