@@ -12,9 +12,21 @@ body{
     
 }
 
-.cabecalho {
-    
+.menu {
+    position: relative;
+}
+
+.icone-menu {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 130px;
     background-color:#1A3342;
+    
 }
 
 .navbar h1 {
@@ -32,7 +44,7 @@ body{
 }
 
 #lugar {
-    background-color: rgb(79, 161, 182);
+    background-color: rgba(41, 84, 95, 0.452);
     margin: 20px ;
     height: 350px;
     width: 250px;
@@ -42,9 +54,6 @@ body{
 .titulo{
     background-color: rgb(225, 240, 255);
 }
-
-
-
 
 .grafico-sala{
     display: flex;
@@ -68,7 +77,7 @@ body{
 
 
 .card_grafico{
-    background-color: rgb(170, 158, 158);
+    background-color: rgb(99, 99, 105);
     width: 230px;
     height: 303px;
     
@@ -93,14 +102,14 @@ body{
 }
 
 .coluna{
-    background-color: yellow;
+    background-color: rgb(5, 5, 4);
     height: 100px;
     width: 50px;
 }
 
 .bars-icon {
     padding: 10px;
-    color:black;
+    color:rgb(206, 198, 198);
     transition: all 0.3s ease-in-out;
     width: fit-content;
     margin-left: auto;
@@ -120,7 +129,7 @@ body{
     background-color: rgb(134, 140, 145);
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    box-shadow: 0 4px 10px rgba(68, 65, 64, 0.521);
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -136,4 +145,46 @@ h4{
     position: relative;
     display: flex;
     flex-direction: column-reverse;
+}
+
+#a {
+    text-decoration: none;
+    color: white;
+}
+
+#coluna1 {
+    height: 60px;
+}
+#coluna2 {
+    height: 160px;
+}
+#coluna3 {
+    height: 80px;
+}
+#coluna4 {
+    height: 100px;
+}
+#coluna5 {
+    height: 10px;
+}
+#coluna6 {
+    height: 180px;
+}
+#coluna7 {
+    height: 50px;
+}
+#coluna8 {
+    height: 125px;
+}
+#coluna9 {
+    height: 55px;
+}
+#coluna10 {
+    height: 220px;
+}
+#coluna11 {
+    height: 40px;
+}
+#coluna12 {
+    height: 190px;
 }
